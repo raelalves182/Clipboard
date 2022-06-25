@@ -7,7 +7,8 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
-  gap: 60px;
+  gap: 60px 0;
+  position: relative;
 }
 
 .content {
@@ -23,5 +24,37 @@
   margin-top: 16px;
   color: hsl(201, 11%, 66%);
   max-width: 60ch;
+  line-height: 24px;
+}
+
+.image {
+  position: absolute;
+  top: 30%;
+  left: -16%;
+}
+
+.image img {
+  width: 100%;
+}
+
+.information {
+  text-align: left;
+  grid-column: 2;
+  max-width: 30ch;
+}
+
+.information-item {
+  margin-top: 60px;
+}
+
+.information-item h1 {
+  font-size: 24px;
+  color: hsl(210, 10%, 33%);
+  margin-bottom: 10px;
+}
+
+.information-item p {
+  font-size: 14px;
+  color: hsl(201, 11%, 66%);
   line-height: 24px;
 }
