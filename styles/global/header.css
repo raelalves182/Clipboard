@@ -1,5 +1,6 @@
 .header-bg {
   background: url('../../../Assets/Images/bg-header-desktop.png') no-repeat;
+  background-size: cover;
 }
 
 .header {
