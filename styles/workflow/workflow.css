@@ -1,0 +1,38 @@
+.workflow-bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 60px;
+}
+
+.workflow h1 {
+  font-size: 30px;
+  color: hsl(210, 10%, 33%);
+}
+
+.workflow p {
+  margin-top: 16px;
+  color: hsl(201, 11%, 66%);
+}
+
+.work-item {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  text-align: center;
+  gap: 45px;
+}
+
+.work-items {
+  margin-top: 80px;
+}
+
+.work-items h1 {
+  margin-top: 30px;
+}
+
+.work-items p {
+  max-width: 34ch;
+  line-height: 30px;
+}
