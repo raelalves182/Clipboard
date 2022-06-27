@@ -29,10 +29,21 @@
   color: white;
   background: hsl(171, 66%, 44%);
   cursor: pointer;
+  transition: 0.3s;
+}
+
+.store button:hover {
+  background: hsl(171, 66%, 60%);
+  box-shadow: 5px 5px 10px 0px hsl(171deg 66% 30%);
 }
 
 button.color {
   background: hsl(233, 100%, 69%);
+}
+
+button.color:hover {
+  background: hsl(233, 100%, 70%);
+  box-shadow: 5px 5px 10px 0px hsl(233deg 100% 30%);
 }
 
 .btn {

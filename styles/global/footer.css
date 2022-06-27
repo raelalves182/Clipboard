@@ -26,9 +26,30 @@
   grid-template-columns: repeat(3, 1fr);
   padding: 0;
   list-style: none;
+  gap: 20px 0;
+  
+}
+
+.item-2 ul li a {
+  text-decoration: none;
+  color: hsl(210, 10%, 33%);
+  transition: 0.3s;
+}
+
+.item-2 ul li a:hover {
+  color: hsl(171, 66%, 44%);
 }
 
 .social {
   display: flex;
   gap: 20px;
+}
+
+.social img {
+  width: 100%;
+  transition: 0.3s;
+}
+
+.social img:hover {
+  filter: invert(58%) sepia(89%) saturate(365%) hue-rotate(121deg) brightness(89%) contrast(87%);
 }
