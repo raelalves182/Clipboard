@@ -53,3 +53,28 @@
 .social img:hover {
   filter: invert(58%) sepia(89%) saturate(365%) hue-rotate(121deg) brightness(89%) contrast(87%);
 }
+
+@media (max-width: 600px) {
+  .footer-bg {
+    margin-top: 120px;
+    height: 75vh;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+
+  .item-2 {
+    text-align: center;
+    margin: 20px 0;
+  }
+
+  .item-2 ul {
+    grid-template-columns: 1fr;
+  }
+
+  .logo-footer {
+    display: grid;
+    justify-items: center;
+  }
+}

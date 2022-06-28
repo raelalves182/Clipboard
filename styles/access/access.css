@@ -10,6 +10,10 @@
   gap: 60px;
 }
 
+.access img {
+  width: 100%;
+}
+
 .access h1 {
   font-size: 30px;
   color: hsl(210, 10%, 33%);
@@ -20,4 +24,10 @@
   color: hsl(201, 11%, 66%);
   max-width: 60ch;
   line-height: 24px;
+}
+
+@media (max-width: 600px) {
+  .access-bg {
+    margin-top: 100px;
+  }
 }

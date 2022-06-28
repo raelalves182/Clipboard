@@ -56,3 +56,17 @@ button.color:hover {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+@media (max-width: 600px) {
+  .header button {
+    width: 100%;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 800px) {
+  .header-bg {
+    background: url('../../../Assets/Images/bg-header-mobile.png') center no-repeat;
+    background-size: cover;
+  }
+}

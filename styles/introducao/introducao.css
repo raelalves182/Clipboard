@@ -58,3 +58,54 @@
   color: hsl(201, 11%, 66%);
   line-height: 24px;
 }
+
+@media (max-width: 1200px) {
+  .image {
+    top: 40%
+  }
+
+  .image img {
+    width: 80%
+  }
+
+  .information-item {
+    margin-top: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .image {
+    top: 40%;
+    left: -40%;
+  }
+}
+
+@media (max-width: 600px) {
+  .introducao-bg {
+    margin-top: 80px;
+  }
+
+  .image {
+    top: 34%;
+    left: 0;
+  }
+
+  .image img {
+    width: 60%
+  }
+
+  .information {
+    margin-top: 160px;
+    text-align: center;
+    grid-column: 1/-1;
+  }
+
+  .information-item {
+    margin-top: 24px;
+  }
+
+  .workflow .work-item {
+    flex-direction: column;
+    gap: 0;
+  }
+}

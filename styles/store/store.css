@@ -52,3 +52,10 @@ button.color:hover {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+@media (max-width: 600px) {
+  .store button {
+    width: 100%;
+    font-size: 20px;
+  }
+}
